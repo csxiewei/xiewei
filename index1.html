@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Background with Music</title>
+    <style>
+        /* 设置页面和body的高度和宽度 */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        /* 设置背景图片 */
+        body {
+            background-image: url('img/puppy.gif');
+            background-size: cover;  /* 背景图片填满整个页面 */
+            background-repeat: no-repeat; /* 不重复显示 */
+            background-position: center; /* 居中显示 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 背景音乐 -->
+    <audio autoplay loop muted>
+    <source src="bgm/1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+</body>
+</html>
